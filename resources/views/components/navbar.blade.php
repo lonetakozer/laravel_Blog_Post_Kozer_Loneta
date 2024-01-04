@@ -26,7 +26,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
               {{-- <li><a class="dropdown-item" href="{{route('user.home')}}">Dashboard</a></li> --}}
-              {{-- <li><a class="dropdown-item" href="{{route('product.create')}}">Create product</a></li> --}}
+              <li><a class="dropdown-item" href="{{route('article.create')}}">Inserisci un articolo</a></li>
               <li><hr class="dropdown-divider">
               </li>
               <li>

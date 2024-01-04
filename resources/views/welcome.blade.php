@@ -6,6 +6,13 @@
         </div>
     </div>
 </div>
+<div>
+    @if (session('message'))
+        <div class="alert alert-success text-center">
+            {{session('message')}}
+        </div>
+    @endif
+</div>
 
 
 </x-layout>
